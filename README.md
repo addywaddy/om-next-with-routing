@@ -10,6 +10,15 @@ build. The props are also passed onto this component.
 
 ## Setup
 
+You'll need om next for this, which is not yet up on clojars, so you'll need to install it locally:
+
+    $ git clone git@github.com:omcljs/om.git
+    $ cd om
+    $ lein install
+
+
+The rest here is the generated readme for a new figwheel app ...
+
 To get an interactive development environment run:
 
     lein figwheel
