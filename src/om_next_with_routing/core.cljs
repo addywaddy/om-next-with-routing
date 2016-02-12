@@ -66,6 +66,8 @@
   (let [component-key (first (keys props))]
     ((om/factory (query-key->view component-key)) (props component-key))))
 
+;; ROOT
+;; =====================================
 (defui App
   static om/IQuery
   (query [this]
